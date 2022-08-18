@@ -3,8 +3,9 @@
 I make official Application for PDAM Kendal. to help Kendal society take advantage from PDAM Kendal facility.
 build with Android Studio With Java Language
 
+<h1 align="center"> Home Page Application</h1>
 <p align = "center">
- Home Page Application
+
 <img src="https://user-images.githubusercontent.com/75481979/185413389-a0dd88c0-41e6-4748-b9c8-c8cb16bcc954.jpg" width="300">
  </p>
   <br>
