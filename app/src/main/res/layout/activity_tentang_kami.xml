@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".tentangKami"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:backgroundTint="#38B6FF">
+            <TextView
+                android:fontFamily="@font/didact_gothic"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:textSize="20dp"
+                android:textColor="@color/black"
+                android:text="Tentang Kami"
+                android:textStyle="bold"
+                android:layout_gravity="center"
+                android:gravity="center"/>
+        </androidx.cardview.widget.CardView>
+    </LinearLayout>
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:orientation="vertical">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Sejarah Perusahaan"
+                android:layout_marginTop="15dp"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:textColor="@color/black"
+                android:fontFamily="@font/didact_gothic"
+                android:textSize="30dp"
+                />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+                <ImageView
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:src="@drawable/logopdam"
+                    android:layout_gravity="center"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="15dp"
+                    android:layout_marginLeft="15dp"
+
+                    android:textSize="13dp"
+                    android:fontFamily="@font/didact_gothic"
+                    android:justificationMode="inter_word"
+                    android:text="Pada zaman pemerintahan Hindia Belanda, kota Kendal telah mendapat pelayanan air bersih berawal dari pembuatan sumur-sumur artetis untuk umum (tanpa pompa air keluar endiri, rakyat mengambil gratis).
+                    \n\nTahun 1975 : Dikelola oleh Kanwil PU Provinsi Jawa Tengah yang dalam pelaksanaannya oleh Proyek Pengadaan Sarana Air Bersih (P2SAB).
+                    \n\nTahun 1978 : Untuk perkembangan selanjutnya pengelolaan pelayanan dan perawatan jaringan diserahkan oleh Badan Pengelola Air Minum (BPAM) dengan dasar Surat Keputusan Direktorat Jenderal Cipta Karya DPU No. 054/KPTS/CK/VII/1978.
+                    \n\nTahun 1986 : Dalam kurun waktu pengelolaan selanjutnya berdasarkan Peraturan Daerah Kabupaten Kendal No. 3 tahun 1986 tanggal 27 Februari 1986 status pengelolaannya diubah menjadi Perusahaan Daerah Air Minum.
+                    \n\nTahun 2003 : Keberadaan PDAM Kabupaten Dati II Kendal diperbaharui dengan PERDA Kabupaten Kendal No. 14 Tahun 2003 tanggal 18 Desember 2003 tentang Perusahaan Daerah Air Minum.
+                    \n\nTahun 2008 : Peraturan daerah Kabupaten Kendal No. 8 Tahun 2008 Tentang Perusahaan Daerah Air Minum “Tirto Panguripan: kabupaten Kendal Tnggal 17 Juni2008"/>
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center">
+                <Button
+                    android:backgroundTint="#03A9F4"
+                    android:fontFamily="@font/didact_gothic"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:clickable="true"
+                    android:onClick="kantorLayanan"
+                    android:text="Kantor Layanan"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingBottom="20dp"
+                android:layout_gravity="center">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Icon created by macrovector - www.freepik.com">
+
+                </TextView>
+            </LinearLayout>
+        </LinearLayout>
+
+
+    </ScrollView>
+
+
+
+</LinearLayout>

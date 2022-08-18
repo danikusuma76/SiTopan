@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Si-TOPan</string>
+    <string name="e_pdam_kendal">E-PDAM KENDAL</string>
+    <string name="info_personal"><hr>Infromasi Personal</hr></string>
+    <string-array name="array_jaringan" >
+        <item>Ada</item>
+        <item>Tidak</item>
+    </string-array>
+
+    <string name="aktivitair"><i> <b>Keterangan</b></i></string>
+</resources>

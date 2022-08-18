@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.sitopan.pdam">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <!-- Always include this permission -->
+
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/maskot2"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/maskot2"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.PDAM"
+        android:usesCleartextTraffic="true">
+        <activity
+            android:name=".inputPasangBaru"
+            android:exported="true" />
+        <activity
+            android:name=".tta"
+            android:exported="true" />
+        <activity
+            android:name=".tera_meter"
+            android:exported="true" />
+        <activity
+            android:name=".penggantian"
+            android:exported="true" />
+        <activity
+            android:name=".balik_nama"
+            android:exported="true" />
+        <activity
+            android:name=".buka_segel"
+            android:exported="true" />
+        <activity
+            android:name=".weleriActivity"
+            android:exported="true" />
+        <activity
+            android:name=".sukorejoActivity"
+            android:exported="true" />
+        <activity
+            android:name=".kaliwunguActivity"
+            android:exported="true" />
+        <activity
+            android:name=".kendalTimurActivity"
+            android:exported="true" />
+        <activity
+            android:name=".kendalBaratActivity"
+            android:exported="true" />
+        <activity
+            android:name=".webView"
+            android:exported="true" />
+        <activity
+            android:name=".mitraBayar"
+            android:exported="true" />
+        <activity
+            android:name=".pengaduan"
+            android:exported="true" />
+        <activity
+            android:name=".tarifAir"
+            android:exported="true" />
+        <activity
+            android:name=".pasangBaru"
+            android:exported="true" />
+        <activity
+            android:name=".kantorLayanan"
+            android:exported="true" />
+        <activity
+            android:name=".tentangKami"
+            android:exported="true" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="true" />
+        <activity
+            android:name=".SplashScreen"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
