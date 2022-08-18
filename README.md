@@ -10,6 +10,8 @@ build with Android Studio With Java Language
  </p>
   <br>
   
+  
+  <h3 align="center"> Other Page in Application</h3>
   <p align = "center">
 <img src="https://user-images.githubusercontent.com/75481979/185412403-592c035e-a3ec-4675-b8d5-04e892aeff40.jpg" width="200">
 
