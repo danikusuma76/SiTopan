@@ -6,7 +6,7 @@ build with Android Studio With Java Language
 <p align = "center">
  Home Page Application
 <img src="https://user-images.githubusercontent.com/75481979/185413389-a0dd88c0-41e6-4748-b9c8-c8cb16bcc954.jpg" width="300">
- 
+ </p>
   <br>
 <img src="https://user-images.githubusercontent.com/75481979/185412403-592c035e-a3ec-4675-b8d5-04e892aeff40.jpg" width="300">
 
