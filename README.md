@@ -5,7 +5,7 @@ build with Android Studio With Java Language
 
 <p align = "center">
 
-  <img src="https://user-images.githubusercontent.com/75481979/185412454-f1bba4ed-d2f3-441b-8078-fc169ec739da.jpg" width="300">
+ 
   <br>
 <img src="https://user-images.githubusercontent.com/75481979/185412403-592c035e-a3ec-4675-b8d5-04e892aeff40.jpg" width="300">
 
